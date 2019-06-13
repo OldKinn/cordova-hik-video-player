@@ -1,0 +1,47 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {
+      "res/xml/config.xml": {
+        "parents": {
+          "/*": [
+            {
+              "xml": "<feature name=\"Whitelist\"><param name=\"android-package\" value=\"org.apache.cordova.whitelist.WhitelistPlugin\" /><param name=\"onload\" value=\"true\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"VideoPlugin\"><param name=\"android-package\" value=\"VideoPlugin.VideoPlugin\" /></feature>",
+              "count": 1
+            }
+          ]
+        }
+      }
+    }
+  },
+  "installed_plugins": {
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.chinacreator.ccep.video"
+    },
+    "VideoPlugin": {
+      "PACKAGE_NAME": "com.chinacreator.ccep.video"
+    }
+  },
+  "dependent_plugins": {},
+  "modules": [
+    {
+      "id": "VideoPlugin.VideoPlugin",
+      "file": "plugins/VideoPlugin/www/VideoPlugin.js",
+      "pluginId": "VideoPlugin",
+      "clobbers": [
+        "cordova.plugins.VideoPlugin"
+      ]
+    }
+  ],
+  "plugin_metadata": {
+    "cordova-plugin-whitelist": "1.3.3",
+    "VideoPlugin": "0.1.0"
+  }
+}

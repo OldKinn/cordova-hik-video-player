@@ -1,0 +1,17 @@
+{
+  "name": "VideoPlugin",
+  "version": "0.1.0",
+  "description": "",
+  "cordova": {
+    "id": "VideoPlugin",
+    "platforms": [
+      "android"
+    ]
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "",
+  "license": "ISC"
+}

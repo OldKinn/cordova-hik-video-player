@@ -1,0 +1,15 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "VideoPlugin": {
+      "PACKAGE_NAME": "com.chinacreator.ccep.video"
+    }
+  },
+  "dependent_plugins": {}
+}

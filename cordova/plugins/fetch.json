@@ -1,0 +1,10 @@
+{
+  "VideoPlugin": {
+    "source": {
+      "type": "local",
+      "path": "D:\\workspace\\creator2019\\ccep-video-play\\platforms\\android\\node_modules\\VideoPlugin"
+    },
+    "is_top_level": true,
+    "variables": {}
+  }
+}
